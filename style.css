@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+img {
+    display: block;
+     max-width: 100%;
+     }
+     .FeturedItems {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 47px;
+        }
+        .FeturedItems h1 {
+          color: rgb(34, 34, 34);
+        font-family: Lato;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 36px;
+        }
+        .FeturedItems p {
+          color: #9F9F9F;
+          font-family: Lato;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+        }
+
+.cardList {
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 48px;
+}
+.cardItem {
+    
+
+}
+.decription {
+    background: rgb(248, 248, 248);
+}
+.cardItem div {
+    padding: 17px 30px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+  }
+  .cardItem div h3 {
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+  .cardItem div p {
+    color: rgb(93, 93, 93);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 17px;
+  }
+  .price {
+    font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  }
